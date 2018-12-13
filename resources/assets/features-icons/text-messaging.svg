@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="46px" viewBox="0 0 32 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Text Messaging</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37.5000004,4.50000085 L16.5000003,4.50000085 L16.5,4.50000085 C13.6005125,4.50000099 11.25,7.0184071 11.25,10.1250008 C11.25,10.1250008 11.25,10.1250008 11.25,10.1250008 L11.25,43.8750008 L11.25,43.875 C11.2499996,46.9815937 13.6005125,49.5 16.5,49.5 L37.5000002,49.5 L37.5,49.5 C40.3994875,49.5000001 42.75,46.9815937 42.75,43.875 L42.75,10.125 C42.75,7.01840625 40.3994875,4.5 37.5,4.5 L37.5000004,4.50000085 Z M38.25,42 C38.25,43.656854 36.9908006,45 35.4375,45 L18.5625001,45 L18.5625,45 C17.0091994,44.9999999 15.75,43.656854 15.75,42 C15.75,42 15.75,42 15.75,42 L15.75,11.9999996 L15.75,12 C15.7499998,10.343146 17.0091994,9 18.5625,9 L21.375,9 L21.375,11 L21.375,11.0000003 C21.3750001,12.1045703 22.2144656,13.0000004 23.25,13.0000004 L30.7499999,13.0000004 C31.7855342,13.0000004 32.6249998,12.1045703 32.6249998,11.0000003 L32.6249998,9.0000003 L35.4374998,9.0000003 C36.9908004,9.00000043 38.2499997,10.3431463 38.2499997,12.0000003 L38.25,42 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-Features" transform="translate(-886.000000, -564.000000)">
+            <g id="Hero">
+                <g id="Hero-Content" transform="translate(204.000000, 184.000000)">
+                    <g id="Feature-Icons-Group" transform="translate(0.000000, 204.000000)">
+                        <g id="Feature-Icons" transform="translate(64.000000, 48.000000)">
+                            <g id="Feature-Icons-Row-2" transform="translate(0.000000, 124.000000)">
+                                <g id="Components/Features/Icons-Copy" transform="translate(543.000000, 0.000000)">
+                                    <g id="Icon/iPhone-X" transform="translate(64.000000, 0.000000)">
+                                        <rect id="24pt-Bounding-Box" x="0" y="0" width="54" height="54"></rect>
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

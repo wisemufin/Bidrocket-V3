@@ -1,0 +1,231 @@
+html {
+  font-size: 16px;
+  font-family: proxima-nova;
+}
+
+header {
+  background-color: transparent;
+  height: 7.625rem;
+  height: 8.472vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.125rem;
+  font-size: 1.25vw;
+  color: white;
+}
+
+/* LOGO PART OF NAVIGATION BAR */
+.header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 3.75rem;
+  padding-left: 5.5vw;
+}
+
+.header-logo img {
+  height: auto;
+  width: 84%;
+  width: 25.27vw;
+}
+
+/* NAV ITEMS */
+nav {
+  padding-right: 40px;
+}
+
+nav span {
+  margin-right: 1.5rem;
+  margin-right: 1.66vw;
+}
+
+.nav-hover:hover {
+  color: #E5E5E5;
+}
+
+.log-in {
+  padding: 11px 36px;
+  padding: .694vw 2.5vw;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
+
+.log-in:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.sign-up {
+  color: white;
+  font-weight: bold;
+  padding: 11px 36px;
+  padding: .7638vw 2.5vw;
+  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  border-radius: 4px;
+}
+
+.sign-up:hover {
+  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+.sign-up:active {
+  background-image: linear-gradient(44deg, #D6441F, #D89D2C);
+}
+
+/* BACKGROUND */
+.hero-image {
+  background: url(../assets/backgrounds/features-background.png) no-repeat center;
+  background-size: contain;
+  background-position: top;
+  height: 610px;
+  height: 42.361vw;
+  width: 100%;
+  position: relative;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-top: 104px;
+  margin-top: 5.22vw;
+}
+
+.hero-text h1 {
+  font-size: 45px;
+  font-size: 3.125vw;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.hero-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  width: 1032px;
+  width: 71.6666vw;
+  height: 425px;
+  height: 29.5138vw;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 64px;
+  margin-top: 4.44vw;
+  border-radius: 4px;
+  box-shadow: 0 16px 24px 0 rgba(48,49,51,0.1);
+}
+
+.card-text-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 905px;
+  width: 62.8472vw;
+  height: 232px;
+  height: 16.11vw;
+  padding: 48px 64px 0px 64px;
+  padding: 3.33vw 4.44vw 0vw 4.44vw;
+  margin-bottom: 44px;
+  margin-bottom: 3.055vw;
+}
+
+.card-text-container h1 {
+  width: 600px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #01435C;
+  line-height: 42px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.card-text-container h2 {
+  color #364347;
+  width:746px;
+  line-height: 34px;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* .feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  width: 12.5vw;
+  height: auto;
+  margin-bottom: 48px;
+  margin-bottom: 3.33vw;
+} */
+
+/* .feature-item img {
+  height: 54px;
+  height: 3.75vw;
+  width: 54px;
+  width: 3.75vw;
+} */
+
+/* .feature-item h3{
+  color: #01435C;
+  font-size: 18px;
+  font-size: 1.25vw;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+  margin-top: .55vw;
+} */
+
+/* .hero-card a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 40px;
+  height: 2.77vw;
+  width: 182px;
+  width: 12.638vw;
+  color: #50b99f;
+  font-size: 16px;
+  font-size: 1.11vw;
+  border: solid 1px #50b99f;
+  border-radius: .25rem;
+  border-radius: .277vw;
+  margin-bottom: 60px;
+  margin-bottom: 4.166vw;
+}
+
+.hero-card a:hover {
+  background-color: rgba(215, 217, 218, 0.33);
+  border: 1px solid #5E696C;
+} */
+
+.rocket-box {
+  display: flex;
+  justify-content: center;
+  margin-top: -80px;
+  margin-top: -5.55vw;
+  padding-left: 400px;
+  padding-left: 27.77vw;
+}
+
+.rocket-box img {
+  height: 220px;
+  height: 15.27vw;
+  z-index: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

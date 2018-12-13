@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="46px" viewBox="0 0 42 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon/Registration Website</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M43.5681821,4.50000057 L10.4318184,4.50000057 L10.4318182,4.50000057 C8.39840523,4.50000066 6.75,6.17893369 6.75,8.25000057 C6.75,8.25000057 6.75,8.25000057 6.75,8.25000057 L6.75,45.7500006 L6.75,45.75 C6.74999969,47.8210688 8.39840523,49.5 10.4318182,49.5 L43.568182,49.5 L43.5681818,49.5 C45.6015948,49.5000001 47.25,47.8210687 47.25,45.75 L47.25,8.25 C47.25,6.17893125 45.6015929,4.5 43.5681818,4.5 L43.5681821,4.50000057 Z M27.0000002,45.7500006 L27.0000001,45.7500006 C25.4749413,45.7500005 24.2386365,44.4908012 24.2386365,42.9375006 C24.2386365,41.3841999 25.4749413,40.1250006 27.0000001,40.1250006 C28.5250589,40.1250006 29.7613638,41.3841999 29.7613638,42.9375006 L29.7613638,42.9375004 C29.7613638,44.4908011 28.5250589,45.7500004 27.0000001,45.7500004 L27.0000002,45.7500006 Z M42.75,36 L11.25,36 L11.25,11.25 L42.75,11.25 L42.75,36 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3-Features" transform="translate(-1062.000000, -440.000000)">
+            <g id="Hero">
+                <g id="Hero-Content" transform="translate(204.000000, 184.000000)">
+                    <g id="Feature-Icons-Group" transform="translate(0.000000, 204.000000)">
+                        <g id="Feature-Icons" transform="translate(64.000000, 48.000000)">
+                            <g id="Feature-Icons-Row-1">
+                                <g id="Components/Features/Icons-Copy" transform="translate(724.000000, 0.000000)">
+                                    <g id="Icon/iPad" transform="translate(64.000000, 0.000000)">
+                                        <rect id="24pt-Bounding-Box" x="0" y="0" width="54" height="54"></rect>
+                                        <mask id="mask-3" fill="white">
+                                            <use xlink:href="#path-2"></use>
+                                        </mask>
+                                        <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
