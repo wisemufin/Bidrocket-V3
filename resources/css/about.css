@@ -112,6 +112,7 @@ nav span {
   font-weight: bold;
 }
 
+/* CARD FOR THE HERO SECTION */
 .hero-card {
   display: flex;
   justify-content: space-around;
@@ -161,57 +162,6 @@ nav span {
   text-align: center;
 }
 
-/* .feature-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 180px;
-  width: 12.5vw;
-  height: auto;
-  margin-bottom: 48px;
-  margin-bottom: 3.33vw;
-} */
-
-/* .feature-item img {
-  height: 54px;
-  height: 3.75vw;
-  width: 54px;
-  width: 3.75vw;
-} */
-
-/* .feature-item h3{
-  color: #01435C;
-  font-size: 18px;
-  font-size: 1.25vw;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 8px;
-  margin-top: .55vw;
-} */
-
-/* .hero-card a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-  height: 40px;
-  height: 2.77vw;
-  width: 182px;
-  width: 12.638vw;
-  color: #50b99f;
-  font-size: 16px;
-  font-size: 1.11vw;
-  border: solid 1px #50b99f;
-  border-radius: .25rem;
-  border-radius: .277vw;
-  margin-bottom: 60px;
-  margin-bottom: 4.166vw;
-}
-
-.hero-card a:hover {
-  background-color: rgba(215, 217, 218, 0.33);
-  border: 1px solid #5E696C;
-} */
 
 .rocket-box {
   display: flex;
@@ -228,4 +178,29 @@ nav span {
   z-index: 0;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
+}
+
+
+.support-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 310px;
+}
+
+.support-section h1 {
+  color: #01435C;
+  font-size: 45px;
+  line-height: 56px;
+  width: auto;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.support-section h2 {
+  color: #364347;
+  font-size: 24px;
+  line-height: 35px;
+  width: 884px;
+  text-align: center;
 }
