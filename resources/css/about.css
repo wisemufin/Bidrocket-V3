@@ -330,3 +330,97 @@ nav span {
   margin-left: 205px;
   margin-left: 14.2361vw;
 }
+
+.yellow-header {
+  width: 820px;
+  text-align: center;
+  font-size: 45px;
+  font-size: 3.125vw;
+  line-height: 56px;
+  line-height: 3.88vw;
+  color: #F2B031;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.footer-background h2 {
+  color: white;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  font-weight: bold;
+  margin: 82px auto 24px auto;
+}
+
+.footer-background h3 {
+  color: white;
+  font-size: 18px;
+  margin: 0 auto 48px auto;
+  width: 680px;
+  text-align: center;
+  line-height: 30px;
+}
+
+/* FORM STYLING */
+.form-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-container form input {
+  width: 608px;
+  display: block;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #AFB4B5;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding: 10px 0 10px 16px;
+  font-family: proxima-nova;
+}
+
+.form-container form input::placeholder {
+  font-size: 16px;
+  color: #868E91;
+  font-family: proxima-nova;
+}
+
+#message {
+  width: 608px;
+  display: block;
+  box-sizing: border-box;
+  height: 40px;
+  border: 1px solid #AFB4B5;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 16px 0 140px 16px;
+  font-family: proxima-nova;
+}
+
+#message::placeholder {
+  font-size: 16px;
+  color: #868E91;
+  font-family: proxima-nova;
+}
+
+.send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 40px;
+  height: 2.77vw;
+  width: 182px;
+  width: 12.638vw;
+  color: #FFFFFF;
+  background-color: #50b99f;
+  font-size: 16px;
+  font-size: 1.11vw;
+  border: solid 1px #50b99f;
+  border-radius: .25rem;
+  border-radius: .277vw;
+  margin-top: 16px;
+  margin-top: 1.11vw;
+}
