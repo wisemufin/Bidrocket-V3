@@ -236,21 +236,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0 30px;
+    margin: 0 1.0833vw;
   }
 
   .feature img {
-    height: 6.94vw;
+    height: 75px;
+    height: 5.2083vw;
   }
 
   .feature h3 {
     font-size: 24px;
     font-size: 1.667vw;
-    color: #01435c;
+    color: #364347;
     text-align: center;
     line-height: 1.3;
     padding-top: .75rem;
-    padding-top: .833vw;
-    width: 60%;
+    padding-top: 1vw;
+    width: 160px;
+    width: 15.11vw;
   }
 
   .all-features-button {
@@ -277,7 +281,27 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 100%
+    width: 100%;
+    /* margin-bottom: 208px;
+    margin-bottom: 14.44vw; */
+  }
+
+  .rocket-one {
+    margin-left: 580px;
+    margin-left: 40.277vw;
+    margin-top: -250px;
+    margin-top: -17.361vw;
+    height: 458px;
+    height: 31.805vw;
+  }
+
+  .rocket-two {
+    margin-left: 363px;
+    margin-left: 25.277vw;
+    margin-top: -163px;
+    margin-top: -11.361vw;
+    width: 466px;
+    width: 32.361vw;
   }
 
   .screenshot-description {
@@ -302,7 +326,7 @@
     font-weight: bold;
     line-height: 1.1;
     color: #01435c;
-    width: 55%;
+    width: 60%;
     margin-bottom: 2rem;
     margin-bottom: 4.5%;
   }
@@ -313,7 +337,7 @@
     font-weight: bold;
     line-height: 1.1;
     color: #01435c;
-    width: 58%;
+    width: 83%;
     margin-bottom: 2rem;
     margin-bottom: 4.5%;
   }
@@ -329,10 +353,10 @@
     text-align: center;
     color: white;
     padding: 1.25rem 5.8675rem;
-    padding: 1vw 6.527vw;
+    padding: 1vw 3.527vw;
     border-radius: .25rem;
-    border-color: #f04c23;
-    background-color: #f04c23;
+    border-color: #F94B2B;
+    background-color: #F94B2B;
   }
 
   .screenshot-text-container a h3:hover, .screenshot-text-container-alt a h3:hover {
@@ -356,6 +380,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding-top: 8%;
+    padding-left: 25%;
   }
 
   .descriptor {
@@ -372,8 +397,8 @@
     height: 1.736vw;
     width: 25px;
     width: 1.736vw;
-    margin-right: .5rem;
-    margin-right: .55vw;
+    margin-right: .75rem;
+    margin-right: .833vw;
   }
 
   .descriptor h1 {
@@ -385,6 +410,20 @@
   .screenshot-container {
     width: 50%;
     height: auto;
+    padding-top: 25px;
+    padding-top: 1.7361vw;
+  }
+
+  .screenshot-container-alt {
+    width: 50%;
+    height: auto;
+    padding-top: 25px;
+    padding-top: 0.7361vw;
+  }
+
+  .screenshot-container-alt img {
+    width: 100%;
+    height: 100%;
   }
 
   .screenshot-container img {
@@ -396,12 +435,11 @@
   .footer-background {
     background-image: url(../../resources/assets/backgrounds/footer.png);
     background-size: 100% 100%;
-    height: 2000px;
-    height: 138.88vw;
+    height: 1674px;
+    height: 116.25vw;
     width: 100%;
-    margin-top: 100px;
-    margin-top: 6.94vw;
-    /* margin-top: -103rem; */
+    margin-top: 120px;
+    margin-top: 8.33vw;
   }
 
   .first-footer-section {
@@ -492,8 +530,8 @@
     display: flex;
     flex-direction: column;
     /* align-items: center; */
-    height: 780px;
-    height: 54.166vw;
+    height: 890px;
+    height: 61.805vw;
     width: 820px;
     width: 56.94vw;
     margin: 0 auto;
@@ -505,15 +543,15 @@
   }
 
   .pricing-card h1 {
-    padding: 3.472vw 0 2.77vw 0;
-    width: 820px;
-    width: 56.944vw;
+    padding: 3.472vw 1.527vw 2.77vw 0;
+    width: 600px;
+    width: 41.66vw;
     margin: 0 auto;
     color: #01435c;
     font-weight: bold;
-    font-size: 48px;
-    font-size: 3.33vw;
-    text-align: center;
+    font-size: 45px;
+    font-size: 3.125vw;
+    text-align: left;
   }
 
   #line {
@@ -527,18 +565,26 @@
   .platform-fee {
     display: flex;
     flex-direction: column;
-    margin: 40px auto;
-    margin: 2.77vw auto;
-    width: 478px;
-    width: 33.194vw;
+    padding: 24px 0px;
+    padding: 1.66vw 0vw;
+    /* width: 478px; */
+    /* width: 53.194vw; */
   }
 
   .platform-fee h2 {
-    text-align: center;
+    text-align: left;
     font-size: 24px;
     font-size: 1.66vw;
-    justify-content: center;
-    color: #30383a8a;
+    line-height: 35px;
+    line-height: 2.43055vw;
+    width: 622px;
+    width: 43.194vw;
+    margin: 0 auto;
+    width: 43.194vw;
+    margin-bottom: 24px;
+    margin-bottom: 1.66vw;
+    /* justify-content: center; */
+    color: #364347;
   }
 
   /* CSS FOR PUTTING CHECKS NEXT TO TEXT */
@@ -546,7 +592,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
     padding-top: 20px;
     padding-top: 1.38vw;
   }
@@ -556,12 +601,20 @@
     height: 2.083vw;
   }
 
-  .check-text h2 {
+  #platform-fee {
     text-align: left;
     color: #30383a;
     padding-left: 14px;
     padding-left: 0.972vw;
     width: auto;
+    margin: 0;
+  }
+
+  #platform-fee-container {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-left: 6.94vw;
   }
 
   .card-button {
@@ -596,15 +649,15 @@
 
   .pricing-card .learn-more-card {
     margin: 0px auto;
-    padding-top: 20px;
-    padding-top: 1.38vw;
+    padding-top: 32px;
+    padding-top: 2.38vw;
   }
 
   .learn-more-card a {
     text-align: center;
-    color: #f2704c;
-    font-size: 14px;
-    font-size: .972vw;
+    color: #F04C23;
+    font-size: 24px;
+    font-size: 1.66vw;
     margin: 0px auto 40px auto;
     margin: 0 auto 2.77vw auto;
   }
@@ -613,18 +666,19 @@
   .additional-service {
     display: flex;
     flex-direction: column;
-    margin: 40px auto;
-    margin: 2.77vw auto;
+    margin: 40px 66px;
+    margin: 2.77vw 4.583vw;
+    mar
     width: 478px;
     width: 33.194vw;
   }
 
   .additional-service h2 {
-    text-align: center;
     font-size: 24px;
     font-size: 1.66vw;
-    justify-content: center;
-    color: #30383a8a;
+    padding-left: 32px;
+    padding-left: 2.22vw;
+    color: #868E91;
   }
 
   #card-text {
@@ -639,23 +693,27 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 30px;
+    padding-left: 2.0833vw;
   }
 
   /* FOOTER NAV */
   .footer-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     margin-top: 5rem;
-    margin-top: 5.55vw;
+    margin-top: 17.55vw;
     padding-bottom: 6rem;
-    padding-bottom: 6.66vw;
+    padding-bottom: 5.66vw;
   }
 
   .column {
     display: flex;
     flex-direction: column;
     text-align: left;
+    padding: 0 100px;
+    padding: 0vw 6.94vw;
   }
 
   .column h3 {
