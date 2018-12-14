@@ -186,21 +186,30 @@ nav span {
   flex-direction: column;
   align-items: center;
   margin-top: 310px;
+  margin-top: 21.527vw;
 }
 
 .support-section h1 {
   color: #01435C;
   font-size: 45px;
+  font-size: 3.125vw;
   line-height: 56px;
+  line-height: 3.88vw;
   width: auto;
   margin-bottom: 16px;
+  margin-bottom: 1.11vw;
   font-weight: bold;
 }
 
 .support-section h2 {
   color: #364347;
   font-size: 24px;
+  font-size: 1.66vw;
   line-height: 35px;
+  line-height: 2.4305vw;
   width: 884px;
+  width: 61.38vw;
   text-align: center;
+  margin-bottom: 46px;
+  margin-bottom: 3.194vw;
 }
