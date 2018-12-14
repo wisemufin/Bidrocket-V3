@@ -213,3 +213,96 @@ nav span {
   margin-bottom: 46px;
   margin-bottom: 3.194vw;
 }
+
+/* ABOUT TECHNICIAN SECTION */
+.technicians {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 104px;
+}
+
+.support-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 194px;
+}
+
+.special-padding {
+  margin-right: 32px;
+}
+
+.support-icon img {
+  width: 120px;
+  height: 120px;
+}
+
+.face-header{
+  font-size: 21px;
+  font-weight: bold;
+  color: #364347;
+  line-height: 27px;
+  margin-top: 16px;
+}
+
+/* EXTERNAL SUPPORT SECTION */
+.external-support-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.external-support-section h1 {
+  color: #01435C;
+  font-size: 45px;
+  font-size: 3.125vw;
+  line-height: 56px;
+  line-height: 3.88vw;
+  width: auto;
+  margin-bottom: 16px;
+  margin-bottom: 1.11vw;
+  font-weight: bold;
+}
+
+.external-support-section h2 {
+  color: #364347;
+  font-size: 24px;
+  font-size: 1.66vw;
+  line-height: 35px;
+  line-height: 2.4305vw;
+  width: 780px;
+  width: 55.16vw;
+  text-align: center;
+}
+
+.external-support-section h2 a {
+  color: #F94B2B;
+  font-size: 24px;
+  font-size: 1.66vw;
+  line-height: 35px;
+  line-height: 2.4305vw;
+}
+
+.get-started-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 40px;
+  height: 2.77vw;
+  width: 288px;
+  width: 20vw;
+  color: #50b99f;
+  font-size: 16px;
+  font-size: 1.11vw;
+  border: solid 1px #50b99f;
+  border-radius: .25rem;
+  border-radius: .277vw;
+  margin-top: 48px;
+  margin-bottom: 104px;
+}
+.get-started-button:hover {
+  background-color: rgba(215, 217, 218, 0.33);
+  border: 1px solid #5E696C;
+}
