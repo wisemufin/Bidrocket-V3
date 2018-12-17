@@ -507,91 +507,6 @@ nav span {
   text-align: center;
 }
 
-/* FORM STYLING */
-/* .form-container {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.form-container form input {
-  width: 608px;
-  width: 42.22vw;
-  display: block;
-  box-sizing: border-box;
-  height: 40px;
-  height: 2.77vw;
-  border: 1px solid #AFB4B5;
-  border-radius: 4px;
-  font-size: 16px;
-  font-size: 1.11vw;
-  margin-bottom: 16px;
-  margin-bottom: 1.11vw;
-  padding: 10px 0 10px 16px;
-  padding: .694vw 0 .694vw 1.11vw;
-  font-family: proxima-nova;
-}
-
-.form-container form input::placeholder {
-  font-size: 16px;
-  font-size: 1.11vw;
-  color: #868E91;
-  font-family: proxima-nova;
-}
-
-#message {
-  width: 608px;
-  width: 42.22vw;
-  display: block;
-  box-sizing: border-box;
-  height: 40px;
-  height: 2.77vw;
-  border: 1px solid #AFB4B5;
-  border-radius: 4px;
-  font-size: 16px;
-  font-size: 1.11vw;
-  padding: 16px 0 140px 16px;
-  padding: 1.11vw 0 9.71vw 1.11vw;
-  font-family: proxima-nova;
-}
-
-#message::placeholder {
-  font-size: 16px;
-  font-size: 1.11vw;
-  color: #868E91;
-  font-family: proxima-nova;
-}
-
-.send-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
-  height: 40px;
-  height: 2.77vw;
-  width: 182px;
-  width: 12.638vw;
-  color: #FFFFFF;
-  background-color: #50b99f;
-  font-size: 16px;
-  font-size: 1.11vw;
-  border: solid 1px #50b99f;
-  border-radius: .25rem;
-  border-radius: .277vw;
-  margin-top: 16px;
-  margin-top: 1.11vw;
-}
-
-.send-button:hover {
-  background-color: #5CD4B6;
-  border: solid 1px #5CD4B6;
-}
-
-.send-button:active {
-  background-color: #45A18A;
-  border: solid 1px #45A18A;
-} */
-
 /* FOOTER CARD */
 .footer-card {
   display: flex;
@@ -666,4 +581,116 @@ nav span {
 
 .card-button:active {
   background-image: linear-gradient(44deg, #D6441F, #D89D2C);
+}
+
+/* FOOTER NAVIGATION */
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 396px;
+  margin-top: 27.55vw;
+  padding-bottom: 6rem;
+  padding-bottom: 5.66vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 100px;
+  padding: 0vw 6.94vw;
+}
+
+.column h3 {
+  font-size: 1rem;
+  font-size: 1.11vw;
+  font-weight: bold;
+  margin-bottom: .5rem;
+  margin-bottom: .55vw;
+}
+
+.column h4 {
+  padding: .75rem 0;
+  padding: .833vw 0;
+}
+
+.column h4 a {
+  font-size: 1rem;
+  font-size: 1.11vw;
+  letter-spacing: .0472vw;
+  font-weight: bold;
+  color: #30383a;
+}
+
+.column h4 a:hover {
+  color: #6F8286;
+}
+
+#bidrocket {
+  color: #f04c23;
+}
+
+#support {
+  color: #f2b031;
+}
+
+#company {
+  color: #078587;
+}
+
+#community {
+  color: #50b99f;
+}
+
+
+/* SOCIAL MEDIA SECTION OF FOOTER */
+#line-2 {
+  border: .5px solid #dadada;
+  /* width: 100%; */
+  margin: 0px;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 82px;
+  height: 5.694vw;
+  width: 100%;
+}
+
+.bidrocket-logo-footer {
+  width: 156px;
+  width: 10.833vw;
+}
+
+.bidrocket-logo-footer img {
+  width: 100%;
+}
+
+.security-section {
+  display: flex;
+}
+
+.security-section p a {
+  margin: : 0px 15px;
+  margin: 0 1.0416vw;
+  font-size: 10px;
+  font-size: .694vw;
+  color: #01435c;
+}
+
+.social-media-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media-icons a img {
+  height: 35px;
+  height: 2.4305vw;
+  padding: 0px 5px;
+  padding: 0 .3472vw;
 }
