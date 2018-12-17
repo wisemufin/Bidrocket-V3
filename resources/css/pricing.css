@@ -283,6 +283,8 @@ nav span {
   flex-wrap: wrap;
   width: 1076px;
   width: 74.72vw;
+  margin-bottom: 20px;
+  margin-bottom: 1.38vw;
 }
 
 .included-features {
@@ -348,4 +350,33 @@ nav span {
 
 .feature-listing a:hover {
   color: #FF5125;
+}
+
+.get-started-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 45px;
+  height: 3.125vw;
+  width: 288px;
+  width: 20vw;
+  color: white;
+  font-size: 16px;
+  font-size: 1.11vw;
+  border-radius: .25rem;
+  border-radius: .277vw;
+  margin-bottom: 68px;
+  margin-bottom: 4.72vw;
+  font-weight: bold;
+  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  letter-spacing: .5px;
+}
+
+.get-started-button:hover {
+  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+.get-started-button:active {
+  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
 }
