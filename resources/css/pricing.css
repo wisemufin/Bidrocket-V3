@@ -113,15 +113,104 @@ nav span {
   font-weight: bold;
 }
 
-.hero-text h3 {
-  font-size: 24px;
-  font-size: 1.66vw;
-  color: #FFFFFF;
+/* PRICING CARD STYLING */
+.hero-card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 1032px;
+  width: 71.6666vw;
+  height: 425px;
+  height: 29.5138vw;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-top: 4.16vw;
+  border-radius: 4px;
+  box-shadow: 0 16px 24px 0 rgba(48,49,51,0.1);
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 905px;
+  width: 62.8472vw;
+  height: 232px;
+  height: 16.11vw;
+  padding: 48px 64px 0px 64px;
+  padding: 3.33vw 4.44vw 0vw 4.44vw;
+  margin-bottom: 36px;
+  margin-bottom: 2.5vw;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  width: 12.5vw;
+  height: auto;
+  margin-bottom: 48px;
+  margin-bottom: 3.33vw;
+}
+
+.feature-item img {
+  height: 54px;
+  height: 3.75vw;
+  width: 54px;
+  width: 3.75vw;
+}
+
+.feature-item h2 {
+  color: #01435C;
+  font-size: 32px;
+  font-size: 2.22vw;
+  font-weight: bold;
+  text-align: center;
+  width: 230px;
+  width: 18vw;
   margin-top: 16px;
   margin-top: 1.11vw;
-  width: 820px;
-  width: 56.94vw;
-  font-family: proxima-nova;
-  line-height: 34px;
+}
+
+.feature-item h3 {
+  color: #364347;
+  width: 618px;
+  width: 42.916vw;
   text-align: center;
+  font-size: 24px;
+  font-size: 1.66vw;
+  padding-top: 24px;
+  line-height: 35px;
+  line-height: 2.4305vw;
+}
+
+/* HERO CARD BUTTON STYLING */
+.hero-card a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  height: 45px;
+  height: 3.125vw;
+  width: 288px;
+  color: white;
+  font-size: 16px;
+  font-size: 1.11vw;
+  border-radius: .25rem;
+  border-radius: .277vw;
+  margin-bottom: 68px;
+  margin-bottom: 4.72vw;
+  font-weight: bold;
+  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  letter-spacing: .5px;
+}
+
+.hero-card a:hover {
+  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+.hero-card a:active {
+  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
 }
