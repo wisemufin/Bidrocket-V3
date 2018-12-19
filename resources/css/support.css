@@ -57,11 +57,40 @@ nav span {
 
 .nav-hover {
   color: #01435C;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+  display: inline-block;
+  /* padding: 15px 20px; */
+  position: relative;
+  font-size: 1.25vw;
+}
+
+.nav-hover:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1.5;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #01435C;
+  transition: width 0.25s ease 0s, left 0.25s ease 0s;
+  width: 0;
+}
+.nav-hover:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+/* .nav-hover {
+  color: #01435C;
 }
 
 .nav-hover:hover {
   color: #02688F;
-}
+  text-decoration: underline;
+} */
 
 .log-in {
   padding: 11px 36px;
@@ -524,7 +553,7 @@ nav span {
 
 .footer-card h2 {
   width: 610px;
-  width: 41.361vw;
+  width: 42.361vw;
   padding-top: 24px;
   padding-top: 1.66vw;
   font-size: 24px;

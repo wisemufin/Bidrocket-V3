@@ -57,8 +57,33 @@
     margin-right: 1.66vw;
   }
 
-  .nav-hover:hover {
-    color: #E5E5E5;
+  .nav-hover {
+    color: #ffffff;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* letter-spacing: 0.15em; */
+    display: inline-block;
+    /* padding: 15px 20px; */
+    position: relative;
+    font-size: 1.25vw;
+  }
+
+  .nav-hover::after {
+    /* background: none repeat scroll 0 0 transparent; */
+    bottom: 1.5;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    background: #ffffff;
+    transition: width 0.3s ease 0s, left 0.3s ease-out;
+    width: 0;
+  }
+
+  .nav-hover:hover:after {
+    width: 100%;
+    left: 0;
   }
 
   .log-in {
@@ -162,7 +187,7 @@
   .hero-h2 {
     font-size: 24px;
     font-size: 1.67vw;
-    line-height: 1.1;
+    line-height: 1.25;
     font-weight: 400;
     color: white;
     padding-top: 2rem;
