@@ -6,8 +6,10 @@ html {
 header {
   background-color: white;
   height: 7.625rem;
-  height: 8.472vw;
+  height: 6.472vw;
   display: flex;
+  position: fixed;
+  z-index: 2;
   align-items: center;
   justify-content: space-between;
   width: 100%;
@@ -42,7 +44,7 @@ a {
 .header-logo img {
   height: auto;
   width: 84%;
-  width: 25.27vw;
+  width: 18.27vw;
 }
 
 /* NAV ITEMS */
@@ -126,6 +128,9 @@ nav span {
   display: flex;
   width: 100%;
   margin-bottom: 104px;
+  padding-top: 190px;
+  padding-top: 11.194vw;
+
 }
 
 /* FORM TEXT STYLING */
