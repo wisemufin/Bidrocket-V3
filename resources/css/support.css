@@ -80,12 +80,12 @@ nav span {
   font-weight: bold;
   padding: 11px 36px;
   padding: .7638vw 2.5vw;
-  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  background-image: linear-gradient(44deg, #E54921, #f2b031);
   border-radius: 4px;
 }
 
 .sign-up:hover {
-  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+  background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
 }
 
 .sign-up:active {
@@ -134,7 +134,7 @@ nav span {
 }
 
 .form-container h2 a {
-  color: #f04c23;
+  color: #E54921;
   font-size: 24px;
   font-size: 1.66vw;
 }
@@ -296,14 +296,30 @@ nav span {
 
 .external-support-section h2 a {
   color: #F04C23;
-  font-size: 24px;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+  display: inline-block;
+  /* padding: 15px 20px; */
+  position: relative;
   font-size: 1.66vw;
-  line-height: 35px;
-  line-height: 2.4305vw;
 }
 
-.external-support-section h2 a:hover {
-  color: #FF5125;
+.external-support-section h2 a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #F04C23;
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+.external-support-section h2 a:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .get-started-button {
@@ -525,10 +541,30 @@ nav span {
 
 .pricing-link {
   color: #F04C23;
-  font-size: 24px;
+  /* text-transform: uppercase; */
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+  display: inline-block;
+  /* padding: 15px 20px; */
+  position: relative;
   font-size: 1.66vw;
-  line-height: 35px;
-  line-height: 2.4305vw;
+}
+
+.pricing-link:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #F04C23;
+  transition: width 0.2s ease 0s, left 0.2s ease 0s;
+  width: 0;
+}
+.pricing-link:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .card-button {
@@ -536,13 +572,13 @@ nav span {
   font-weight: bold;
   padding: 11px 36px;
   padding: .7638vw 2.5vw;
-  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  background-image: linear-gradient(44deg, #E54921, #f2b031);
   border-radius: 4px;
   letter-spacing: .5px;
 }
 
 .card-button:hover {
-  background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+  background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
 }
 
 .card-button:active {
@@ -640,12 +676,16 @@ nav span {
   display: flex;
 }
 
-.security-section p {
-  padding: 0px 15px;
-  padding: 0 1.0416vw;
+.security-section p a {
+  margin: 0px 15px;
+  margin: 0 1.0416vw;
   font-size: 10px;
   font-size: .694vw;
   color: #01435c;
+}
+
+.security-section p a:hover {
+  color: #02688F;
 }
 
 .social-media-icons {

@@ -83,7 +83,7 @@
   }
 
   .sign-up:hover {
-    background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+    background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
   }
 
   .sign-up:active {
@@ -186,7 +186,7 @@
   }
 
   .button-box a:hover {
-    background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+    background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
   }
 
   .button-box a:active {
@@ -640,7 +640,7 @@
   }
 
   .card-button a h2:hover {
-    background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+    background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
   }
 
   .card-button a h2:active {
@@ -760,6 +760,7 @@
   /* SOCIAL MEDIA SECTION OF FOOTER */
   #line-2 {
     border: .5px solid #dadada;
+    /* width: 100%; */
     margin: 0px;
   }
 
@@ -786,12 +787,16 @@
     display: flex;
   }
 
-  .security-section p {
-    padding: 0px 15px;
-    padding: 0 1.0416vw;
+  .security-section p a {
+    margin: 0px 15px;
+    margin: 0 1.0416vw;
     font-size: 10px;
     font-size: .694vw;
     color: #01435c;
+  }
+
+  .security-section p a:hover {
+    color: #02688F;
   }
 
   .social-media-icons {
@@ -806,7 +811,7 @@
     padding: 0px 5px;
     padding: 0 .3472vw;
   }
-}
+
 
 /* MOBILE SITE */
 @media only screen and (max-width: 420px) {
