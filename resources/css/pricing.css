@@ -4,11 +4,15 @@ html {
 }
 
 header {
-  background-color: transparent;
+  background-color: white;
+  position: fixed;
   height: 7.625rem;
-  height: 8.472vw;
+  height: 5.55vw;
   display: flex;
+  box-shadow: 0px 2px 14px rgba(48,49,51,0.1);
+  box-shadow: 0px .1388vw .9722vw rgba(48, 49, 51, 0.1);
   align-items: center;
+  z-index: 2;
   justify-content: space-between;
   width: 100%;
 }
@@ -38,7 +42,7 @@ a {
 .header-logo img {
   height: auto;
   width: 84%;
-  width: 25.27vw;
+  width: 19.27vw;
 }
 
 /* NAV ITEMS */
@@ -52,7 +56,7 @@ nav span {
 }
 
 .nav-hover {
-  color: #ffffff;
+  color: #01435C;
   /* text-transform: uppercase; */
   text-decoration: none;
   /* letter-spacing: 0.15em; */
@@ -70,7 +74,7 @@ nav span {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #ffffff;
+  background: #01435C;
   transition: width 0.25s ease 0s, left 0.25s ease 0s;
   width: 0;
 }
@@ -79,12 +83,21 @@ nav span {
   left: 0;
 }
 
+/* .nav-hover {
+  color: #01435C;
+}
+
+.nav-hover:hover {
+  color: #02688F;
+  text-decoration: underline;
+} */
+
 .log-in {
   padding: 11px 36px;
   padding: .694vw 2.5vw;
-  border: 1px solid white;
+  border: 1px solid #50b99f;
   border-radius: 4px;
-  color: white;
+  color: #50b99f;
 }
 
 .log-in:hover {
@@ -96,7 +109,7 @@ nav span {
   font-weight: bold;
   padding: 11px 36px;
   padding: .7638vw 2.5vw;
-  background-image: linear-gradient(44deg, #f04c23, #f2b031);
+  background-image: linear-gradient(44deg, #E54921, #f2b031);
   border-radius: 4px;
 }
 
@@ -128,8 +141,7 @@ nav span {
   align-items: center;
   width: 100%;
   text-align: center;
-  margin-top: 104px;
-  margin-top: 5.22vw;
+  padding-top: 12.2vw;
 }
 
 .hero-text h1 {

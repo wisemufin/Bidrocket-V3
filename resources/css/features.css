@@ -7,7 +7,7 @@ header {
   background-color: white;
   position: fixed;
   height: 7.625rem;
-  height: 6.472vw;
+  height: 5.55vw;
   display: flex;
   box-shadow: 0px 2px 14px rgba(48,49,51,0.1);
   box-shadow: 0px .1388vw .9722vw rgba(48, 49, 51, 0.1);
@@ -139,7 +139,7 @@ nav span {
   align-items: center;
   width: 100%;
   text-align: center;
-  padding-top: 12.77vw;
+  padding-top: 13.2vw;
 }
 
 .hero-text h1 {
