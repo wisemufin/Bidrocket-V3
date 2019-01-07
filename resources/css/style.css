@@ -129,7 +129,7 @@
 
   /* BACKGROUND */
   .hero-image {
-    background: url(../assets/backgrounds/Hero.png) no-repeat center;
+    background: url(../assets/backgrounds/Hero-min.png) no-repeat center;
     background-size: contain;
     background-position: top;
     height: auto;
@@ -472,7 +472,7 @@
 
   /* FOOTER */
   .footer-background {
-    background-image: url(../../resources/assets/backgrounds/footer.png);
+    background-image: url(../../resources/assets/backgrounds/footer-min.png);
     background-size: 100% 100%;
     height: 1674px;
     height: 116.25vw;
@@ -894,14 +894,6 @@
     padding: 11px 36px;
   }
 
-  /* .hero-h1 {
-    font-size: 72px;
-  }
-
-  .hero-h2 {
-    font-size: 24px;
-  } */
-
   .features-grid h2 {
     font-size: 48px;
   }
@@ -919,8 +911,8 @@
     padding: 20px 144px;
   }
 
-  .screenshot-text-conatiner h2 {
-    font-size: 32px;
+  .screenshot-text-container h2 {
+    font-size: 35px;
   }
 
   .descriptor h1 {
@@ -934,7 +926,7 @@
 
   .screenshot-text-container .button-container a h3 {
     font-size: 20px;
-    padding: 20px 50px;
+    padding: 15px 50px;
   }
 }
 
