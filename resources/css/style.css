@@ -880,7 +880,7 @@
   }
 
 /* TEXT SIZING CORRECTION */
-@media only screen and (min-width: 1440px) {
+/* @media only screen and (min-width: 1440px) {
 
   a {
     font-size: 18px;
@@ -928,7 +928,7 @@
     font-size: 20px;
     padding: 15px 50px;
   }
-}
+} */
 
 /* MOBILE SITE */
 @media only screen and (max-width: 420px) {
