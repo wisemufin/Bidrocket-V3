@@ -918,6 +918,24 @@
     font-size: 16px;
     padding: 20px 144px;
   }
+
+  .screenshot-text-conatiner h2 {
+    font-size: 32px;
+  }
+
+  .descriptor h1 {
+    font-size: 24px;
+  }
+
+  .descriptor img {
+    height: 25px;
+    margin-right: 12px;
+  }
+
+  .screenshot-text-container .button-container a h3 {
+    font-size: 20px;
+    padding: 20px 50px;
+  }
 }
 
 /* MOBILE SITE */
