@@ -138,6 +138,17 @@ nav span {
   margin-bottom: 10px;
 }
 
+.privacy-policy h2 {
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 20px 0px;
+}
+
+.privacy-policy h2 b {
+  font-weight: bold;
+}
+
 .privacy-policy p {
   text-align: left;
   font-size: 18px;
@@ -145,6 +156,23 @@ nav span {
   margin: 20px 0px;
 }
 
+.privacy-policy p a {
+  text-decoration: underline;
+  color: blue;
+}
+
+.privacy-policy p b {
+  font-weight: bold;
+}
+
+.privacy-policy ul li p b {
+  font-weight: bold;
+}
+
 .privacy-policy p i {
   font-style: italic;
+}
+
+.privacy-policy ul {
+  padding-left: 50px;
 }
