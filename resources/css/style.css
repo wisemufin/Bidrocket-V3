@@ -18,7 +18,7 @@
     box-shadow: 0px 2px 14px rgba(48,49,51,0.1);
     box-shadow: 0px .1388vw .9722vw rgba(48, 49, 51, 0.1);
     align-items: center;
-    z-index: 2;
+    z-index: 3;
     justify-content: space-between;
     width: 100%;
   }
@@ -701,6 +701,34 @@
     margin: 0 auto 2.77vw auto;
   }
 
+  .pricing-link {
+    color: #F04C23;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    /* letter-spacing: 0.15em; */
+    display: inline-block;
+    /* padding: 15px 20px; */
+    position: relative;
+    font-size: 1.66vw;
+  }
+
+  .pricing-link:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #F04C23;
+    transition: width 0.2s ease 0s, left 0.2s ease 0s;
+    width: 0;
+  }
+  .pricing-link:hover:after {
+    width: 100%;
+    left: 0;
+  }
+
   /* ADDITIONAL SERVICES SECTION OF PRICING CARD */
   .additional-service {
     display: flex;
@@ -851,6 +879,46 @@
     padding: 0 .3472vw;
   }
 
+/* TEXT SIZING CORRECTION */
+@media only screen and (min-width: 1440px) {
+
+  a {
+    font-size: 18px;
+  }
+
+  .nav-hover {
+    font-size: 18px;
+  }
+
+  .log-in, .sign-up {
+    padding: 11px 36px;
+  }
+
+  /* .hero-h1 {
+    font-size: 72px;
+  }
+
+  .hero-h2 {
+    font-size: 24px;
+  } */
+
+  .features-grid h2 {
+    font-size: 48px;
+  }
+
+  .feature img {
+    height: 75px;
+  }
+
+  .feature h3 {
+    font-size: 24px;
+  }
+
+  .all-features-button {
+    font-size: 16px;
+    padding: 20px 144px;
+  }
+}
 
 /* MOBILE SITE */
 @media only screen and (max-width: 420px) {
