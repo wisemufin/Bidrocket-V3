@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="63px" viewBox="0 0 63 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Global/Icons/ipad1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M62.231449,6.25 L42.573463,6.25 L42.5734632,6.25 C41.1022004,6.25756749 39.691808,6.84616463 38.641866,7.8907699 L7.80580954,38.6747386 L7.8058092,38.6747389 C5.62028571,40.9000058 5.62028571,44.49705 7.80580989,46.7223246 L27.90064,67.0887066 L27.9006403,67.0887069 C30.0962369,69.3037645 33.6453205,69.3037645 35.8409248,67.0887063 L66.2144405,35.8359462 L66.2144403,35.8359464 C67.2451175,34.7718159 67.8258658,33.3423642 67.8333333,31.8512195 L67.8333333,11.9275849 L67.8333333,11.9275932 C67.8192693,8.79786372 65.319447,6.26425455 62.2314497,6.2500085 L62.231449,6.25 Z M52.4153044,27.0851734 L52.4153041,27.0851734 C49.5769222,27.0851733 47.2759614,24.7531159 47.2759614,21.87638 C47.2759615,18.9996416 49.5769248,16.6675867 52.4153041,16.6675867 C55.2536861,16.6675868 57.5546469,18.9996442 57.5546469,21.87638 L57.5546469,21.8763798 C57.5546469,24.7531182 55.2536861,27.0851731 52.4153041,27.0851731 L52.4153044,27.0851734 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-Event-Support-Staff" transform="translate(-680.000000, -1218.000000)">
+            <g id="Stacked-Group" transform="translate(298.000000, 1208.000000)">
+                <g id="Benefits">
+                    <g id="Home-Features-Icons" transform="translate(280.000000, 4.000000)">
+                        <g id="Icon/Tag/Fill" transform="translate(96.793991, 0.000000)">
+                            <rect id="24pt-Bounding-Box" x="0" y="0" width="74" height="75"></rect>
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

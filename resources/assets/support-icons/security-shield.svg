@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="63px" viewBox="0 0 50 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Global/Icons/ipad</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M37,6.25 L12.3333333,21.875 L12.3333333,37.5 C12.654,50.15625 16.7486667,61.7708333 37,68.75 C57.2513333,61.7708333 61.346,50.15625 61.6666667,37.5 L61.6666667,21.875 L37,6.25 Z M47.6806667,31.1458333 L36.4573333,48.9322917 L27.1333333,42.265625 L27.1333335,42.2656251 C25.9328364,41.5857735 25.4816707,40.0072032 26.1256261,38.7397918 C26.7695815,37.4723751 28.2648033,36.99606 29.4652955,37.6759115 C29.599972,37.75218 29.7276427,37.8414975 29.8466619,37.942711 L35.1993285,41.692711 L43.7093285,28.255211 L43.7093284,28.2552113 C44.4621107,27.0669951 45.981417,26.7415472 47.1133284,27.5260446 C48.2121198,28.3632894 48.4654366,29.9795498 47.6806617,31.1458363 L47.6806667,31.1458333 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-Event-Support-Staff" transform="translate(-393.000000, -1218.000000)">
+            <g id="Stacked-Group" transform="translate(298.000000, 1208.000000)">
+                <g id="Benefits">
+                    <g id="Event-Support/Features" transform="translate(0.000000, 4.000000)">
+                        <g id="Icon/Verified" transform="translate(83.214592, 0.000000)">
+                            <rect id="24pt-Bounding-Box" x="0" y="0" width="74" height="75"></rect>
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

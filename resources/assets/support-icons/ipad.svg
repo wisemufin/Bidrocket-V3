@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="63px" viewBox="0 0 56 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Global/Icons/ipad7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="78.4453125%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F2B031" offset="0%"></stop>
+            <stop stop-color="#F04C23" offset="100%"></stop>
+        </linearGradient>
+        <path d="M59.7045459,6.25000079 L14.2954548,6.25000079 L14.2954546,6.25000079 C11.5089257,6.25000091 9.25,8.58185235 9.25,11.4583341 C9.25,11.4583341 9.25,11.4583341 9.25,11.4583341 L9.25,63.5416675 L9.25,63.5416667 C9.24999958,66.418151 11.5089257,68.75 14.2954546,68.75 L59.7045457,68.75 L59.7045454,68.75 C62.4910743,68.7500001 64.75,66.418151 64.75,63.5416667 L64.75,11.4583333 C64.75,8.58184896 62.4910718,6.25 59.7045454,6.25 L59.7045459,6.25000079 Z M37.0000003,63.5416675 L37.0000002,63.5416675 C34.9101048,63.5416674 33.2159092,61.7927794 33.2159092,59.6354175 C33.2159093,57.4780555 34.9101048,55.7291675 37.0000002,55.7291675 C39.0898956,55.7291675 40.7840911,57.4780555 40.7840911,59.6354175 L40.7840911,59.6354173 C40.7840911,61.7927793 39.0898956,63.5416673 37.0000002,63.5416673 L37.0000003,63.5416675 Z M58.5833333,50 L15.4166667,50 L15.4166667,15.625 L58.5833333,15.625 L58.5833333,50 Z" id="path-2"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6-Event-Support-Staff" transform="translate(-978.000000, -1216.000000)">
+            <g id="Stacked-Group" transform="translate(298.000000, 1210.000000)">
+                <g id="Benefits">
+                    <g id="Home-Features-Icons" transform="translate(588.000000, 0.000000)">
+                        <g id="Icon/iPad" transform="translate(83.214592, 0.000000)">
+                            <rect id="24pt-Bounding-Box" x="0" y="0" width="74" height="75"></rect>
+                            <mask id="mask-3" fill="white">
+                                <use xlink:href="#path-2"></use>
+                            </mask>
+                            <use id="Fill" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
