@@ -754,3 +754,26 @@ nav span {
   padding: 0px 5px;
   padding: 0 .3472vw;
 }
+
+@media only screen and (min-width: 1440px) {
+
+  a {
+    font-size: 18px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-logo img {
+    width: 278px;
+  }
+
+  .nav-hover {
+    font-size: 18px;
+  }
+
+  .log-in, .sign-up {
+    padding: 11px 36px;
+  }
+}

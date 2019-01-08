@@ -880,10 +880,18 @@
   }
 
 /* TEXT SIZING CORRECTION */
-/* @media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
 
   a {
     font-size: 18px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-logo img {
+    width: 278px;
   }
 
   .nav-hover {
@@ -911,7 +919,7 @@
     padding: 20px 144px;
   }
 
-  .screenshot-text-container h2 {
+  .screenshot-text-container h2, .screenshot-text-container-alt h2 {
     font-size: 35px;
   }
 
@@ -924,11 +932,21 @@
     margin-right: 12px;
   }
 
-  .screenshot-text-container .button-container a h3 {
+  .descriptor {
+    padding: 1rem 0rem;
+  }
+
+  .screenshot-text-container .button-container a h3, .screenshot-text-container-alt a h3 {
     font-size: 20px;
     padding: 15px 50px;
   }
-} */
+
+  .pricing-card h1 {
+    font-size: 45px;
+    width: 600px;
+    /* padding: 50px 22px 40px 0px; */
+  }
+}
 
 /* MOBILE SITE */
 @media only screen and (max-width: 420px) {

@@ -176,3 +176,26 @@ nav span {
 .privacy-policy ul {
   padding-left: 50px;
 }
+
+@media only screen and (min-width: 1440px) {
+
+  a {
+    font-size: 18px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-logo img {
+    width: 278px;
+  }
+
+  .nav-hover {
+    font-size: 18px;
+  }
+
+  .log-in, .sign-up {
+    padding: 11px 36px;
+  }
+}

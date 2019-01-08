@@ -196,7 +196,7 @@ nav span {
 }
 
 .card-text-container h2 {
-  color #364347;
+  color: #364347;
   width:760px;
   width: 52.805vw;
   line-height: 34px;
@@ -767,4 +767,27 @@ nav span {
   height: 2.4305vw;
   padding: 0px 5px;
   padding: 0 .3472vw;
+}
+
+@media only screen and (min-width: 1440px) {
+
+  a {
+    font-size: 18px;
+  }
+
+  header {
+    height: 80px;
+  }
+
+  .header-logo img {
+    width: 278px;
+  }
+
+  .nav-hover {
+    font-size: 18px;
+  }
+
+  .log-in, .sign-up {
+    padding: 11px 36px;
+  }
 }
