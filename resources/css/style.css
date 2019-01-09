@@ -1,8 +1,8 @@
 /* Universal Styles */
-@media only screen and (min-width: 430px) {
+/* @media only screen and (min-width: 430px) {
   .mobile-hero {
     display: none;
-  }
+  } */
 
   html {
     font-size: 16px;
