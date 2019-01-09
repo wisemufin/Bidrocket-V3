@@ -949,13 +949,13 @@
 }
 
 /* MOBILE SITE */
-@media only screen and (max-width: 420px) {
+/* @media only screen and (max-width: 420px) {
   #line-2, .hero-image, .features-grid, .bidrocket-screen, .footer-background, .footer-nav, .line-2, .footer-social-media {
     display: none;
-  }
+  } */
 
   /* MOBILE NAVIGATION */
-  .mobile-nav {
+  /* .mobile-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -980,10 +980,10 @@
     height: 14px;
     height: 3.33vw;
     margin-right: 8%;
-  }
+  } */
 
   /* HERO SECTION */
-  .mobile-hero {
+  /* .mobile-hero {
     background: url(../assets/mobile-assets/header-stars@2x.png) no-repeat center;
     background-size: contain;
     background-position: top;
@@ -1021,4 +1021,4 @@
   .hero-image-mobile img {
     width: 100%;
   }
-}
+} */
