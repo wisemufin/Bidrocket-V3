@@ -125,7 +125,10 @@ nav span {
 .body-container {
   display: flex;
   width: 100%;
+  height: 300px;
+  height: 43.833vw;
   margin-bottom: 104px;
+  margin-bottom: 7.22vw;
   padding-top: 190px;
   padding-top: 11.194vw;
 
@@ -385,7 +388,7 @@ nav span {
   background-image: url(../../resources/assets/backgrounds/about-footer-stars-min.png);
   background-size: 100% 100%;
   height: 556px;
-  height: 48.61vw;
+  height: 45.61vw;
   width: 100%;
 }
 
