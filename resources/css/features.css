@@ -123,7 +123,7 @@ nav span {
 
 /* BACKGROUND */
 .hero-image {
-  background: url(../assets/backgrounds/features-background-min.png) no-repeat center;
+  background: url(../assets/backgrounds/features-background-min.webp) no-repeat center;
   background-size: contain;
   background-position: top;
   height: 610px;
