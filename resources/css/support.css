@@ -180,7 +180,7 @@ nav span {
   flex-direction: column;
 }
 
-.form form input {
+.form form .input {
   width: 608px;
   width: 42.22vw;
   display: block;
@@ -228,7 +228,7 @@ nav span {
   font-family: proxima-nova;
 }
 
-.send-button {
+.form form .send-button {
   display: flex;
   align-items: center;
   justify-content: center;
