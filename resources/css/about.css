@@ -122,8 +122,18 @@ nav span {
 }
 
 /* BACKGROUND */
-.hero-image {
+.no-webp .hero-image {
   background: url(../assets/backgrounds/features-background-min.png) no-repeat center;
+  background-size: contain;
+  background-position: top;
+  height: 610px;
+  height: 42.361vw;
+  width: 100%;
+  position: relative;
+}
+
+.webp .hero-image {
+  background: url(../assets/backgrounds/features-background-min.webp) no-repeat center;
   background-size: contain;
   background-position: top;
   height: 610px;
@@ -404,14 +414,21 @@ nav span {
 }
 
 /* FOOTER */
-.footer-background {
-  background-image: url(../../resources/assets/backgrounds/compressed-footer.png);
+.no-webp .footer-background {
+  background-image: url(../../resources/assets/backgrounds/compressed-features-footer.png);
   background-size: 100% 100%;
   height: 1386px;
   height: 98.25vw;
   width: 100%;
 }
 
+.webp .footer-background {
+  background-image: url(../../resources/assets/backgrounds/compressed-features-footer.webp);
+  background-size: 100% 100%;
+  height: 1386px;
+  height: 98.25vw;
+  width: 100%;
+}
 
 .footer-rockets {
   margin-top: -110px;

@@ -122,7 +122,7 @@ nav span {
 }
 
 /* BACKGROUND */
-.hero-image {
+.no-webp .hero-image {
   background: url(../assets/backgrounds/features-background-min.png) no-repeat center;
   background-size: contain;
   background-position: top;
@@ -132,6 +132,15 @@ nav span {
   position: relative;
 }
 
+.webp .hero-image {
+  background: url(../assets/backgrounds/features-background-min.webp) no-repeat center;
+  background-size: contain;
+  background-position: top;
+  height: 610px;
+  height: 42.361vw;
+  width: 100%;
+  position: relative;
+}
 /* HERO TEXT */
 .hero-text {
   display: flex;
