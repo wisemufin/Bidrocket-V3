@@ -127,8 +127,17 @@
   }
 
   /* BACKGROUND */
-  .hero-image {
+  .no-webp .hero-image {
     background: url(../assets/backgrounds/Compressed-Hero.png) no-repeat center;
+    background-size: contain;
+    background-position: top;
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+
+  .webp .hero-image {
+    background: url(../assets/backgrounds/Compressed-Hero.webp) no-repeat center;
     background-size: contain;
     background-position: top;
     height: auto;
@@ -738,7 +747,6 @@
     flex-direction: column;
     margin: 40px 66px;
     margin: 2.77vw 4.583vw;
-    mar
     width: 478px;
     width: 33.194vw;
   }

@@ -1,0 +1,24 @@
+{
+  "name": "Bidrocket-V3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "modernizr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wisemufin/Bidrocket-V3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wisemufin/Bidrocket-V3/issues"
+  },
+  "homepage": "https://github.com/wisemufin/Bidrocket-V3#readme",
+  "dependencies": {
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^6.1.2"
+  }
+}
