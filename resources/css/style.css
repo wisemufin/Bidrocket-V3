@@ -128,7 +128,7 @@
 
   /* BACKGROUND */
   .no-webp .hero-image {
-    background: url(../assets/backgrounds/Compressed-Hero.png) no-repeat center;
+    background: url(../../assets/backgrounds/Compressed-Hero.png) no-repeat center;
     background-size: contain;
     background-position: top;
     height: auto;
@@ -137,7 +137,7 @@
   }
 
   .webp .hero-image {
-    background: url(../assets/backgrounds/Compressed-Hero.webp) no-repeat center;
+    background: url(../../assets/backgrounds/Compressed-Hero.webp) no-repeat center;
     background-size: contain;
     background-position: top;
     height: auto;
