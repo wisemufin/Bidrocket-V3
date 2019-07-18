@@ -941,6 +941,14 @@ footer a {
     font-size: 2vw;
     grid-column: 3/4;
   }
+
+  .footer-menu-header {
+    font-size: 3.67vw;
+  }
+
+  .footer-menu-column-bidrocket, .footer-menu-column-support, .footer-menu-column-company {
+    font-size: 3.667vw;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -949,6 +957,10 @@ footer a {
   }
 
   .footer-menu-column-bidrocket, .footer-menu-column-support, .footer-menu-column-company {
+    font-size: 3.667vw;
+  }
+
+  .footer-menu-header {
     font-size: 3.667vw;
   }
 }
