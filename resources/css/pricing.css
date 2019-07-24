@@ -209,8 +209,7 @@ nav span a:hover {
   height: 42.361vw;
   width: 100%;
   position: relative;
-  margin-bottom: 370px;
-  margin-bottom: 25.694vw;
+  margin-bottom: 310px;
 }
 
 /* HERO TEXT */
@@ -221,87 +220,70 @@ nav span a:hover {
   width: 100%;
   text-align: center;
   padding-top: 12.2vw;
+  width: 65%;
+  font-weight: 600;
+  margin: 0 auto;
 }
 
 .hero-text h1 {
   font-size: 45px;
-  font-size: 3.125vw;
+  font-size: 4.5vw;
   color: #FFFFFF;
-  font-weight: bold;
+  font-weight: 600;
+}
+
+/* Media Query for Hero Te */
+@media only screen and (max-width: 992px) {
+  header {
+    padding: 0;
+  }
+
+  .hero-image {
+    background-size: cover;
+    height: 45vw;
+  }
+
+  .hero-text {
+    padding-top: 90px;
+    width: 80%;
+  }
+
+  .hero-text h1 {
+    font-size: 5.839vw;
+    font-weight: 600;
+  }
 }
 
 /* PRICING CARD STYLING */
 .hero-card {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 1032px;
-  width: 71.6666vw;
-  height: 425px;
-  height: 29.5138vw;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
   background-color: #FFFFFF;
   margin: 0 auto;
   margin-top: 64px;
-  margin-top: 4.44vw;
+  margin-top: 3.5vw;
   border-radius: 4px;
   box-shadow: 0 16px 24px 0 rgba(48,49,51,0.1);
 }
 
-.item-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 905px;
-  width: 62.8472vw;
-  height: 232px;
-  height: 16.11vw;
-  padding: 48px 64px 0px 64px;
-  padding: 3.33vw 4.44vw 0vw 4.44vw;
-  margin-bottom: 36px;
-  margin-bottom: 2.5vw;
-}
-
-.feature-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 180px;
-  width: 12.5vw;
-  height: auto;
-  margin-bottom: 48px;
-  margin-bottom: 3.33vw;
-}
-
-.feature-item img {
-  height: 54px;
-  height: 3.75vw;
-  width: 54px;
-  width: 3.75vw;
-}
-
-.feature-item h2 {
+.hero-card h2 {
+  display: block;
   color: #01435C;
-  font-size: 32px;
-  font-size: 2.22vw;
+  font-size: 3vw;
   font-weight: bold;
   text-align: center;
-  width: 230px;
-  width: 18vw;
-  margin-top: 16px;
-  margin-top: 1.11vw;
+  width: 95%;
+  padding: 60px 0 30px 0;
 }
 
-.feature-item h3 {
+.hero-card h3 {
   color: #364347;
-  width: 618px;
-  width: 42.916vw;
+  width: 70%;
   text-align: center;
-  font-size: 24px;
-  font-size: 1.66vw;
-  padding-top: 24px;
-  padding-top: 1.66vw;
-  line-height: 35px;
-  line-height: 2.8vw;
+  font-size: 1.75vw;
+  line-height: 2.5vw;
 }
 
 /* HERO CARD BUTTON STYLING */
@@ -310,17 +292,14 @@ nav span a:hover {
   align-items: center;
   justify-content: center;
   z-index: 1;
-  height: 45px;
   height: 3.125vw;
-  width: 288px;
   width: 20vw;
   color: white;
   font-size: 16px;
   font-size: 1.11vw;
   border-radius: .25rem;
   border-radius: .277vw;
-  margin-bottom: 68px;
-  margin-bottom: 4.72vw;
+  margin: 30px 0 60px 0;
   font-weight: bold;
   background-image: linear-gradient(44deg, #f04c23, #f2b031);
   letter-spacing: .5px;
@@ -332,6 +311,65 @@ nav span a:hover {
 
 .hero-card a:active {
   background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 64px;
+    margin-top: 4.44vw;
+    border-radius: 4px;
+    box-shadow: 0 16px 24px 0 rgba(48,49,51,0.1);
+  }
+
+  .hero-card h2 {
+    display: block;
+    color: #01435C;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    width: 95%;
+    padding: 4vw 0 2vw 0;
+  }
+
+  .hero-card h3 {
+    color: #364347;
+    width: 70%;
+    text-align: center;
+    font-size: 2.5vw;
+    line-height: 3.5vw;
+  }
+
+  .hero-card a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: 4.6vw;
+    width: 22.7vw;
+    color: white;
+    font-size: 16px;
+    font-size: 1.7vw;
+    border-radius: .25rem;
+    border-radius: .277vw;
+    margin: 2vw 0 4vw 0;
+    font-weight: 600;
+    background-image: linear-gradient(44deg, #f04c23, #f2b031);
+    letter-spacing: .5px;
+  }
+
+  .hero-card a:hover {
+    background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
+  }
+
+  .hero-card a:active {
+    background-image: linear-gradient(44deg, #fd5025, #FFB93C);
+  }
 }
 
 /* ROCKET STYLING */
@@ -354,43 +392,6 @@ nav span a:hover {
   transform: scaleX(-1);
 }
 
-/* COMPUTER MOCKUP TEXT AND IMAGE STYLING */
-.computer-mockup {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.computer-mockup h1 {
-  font-size: 45px;
-  font-weight: bold;
-  color: #01435C;
-  width: 560px;
-  width: 39.72vw;
-  margin-bottom: 24px;
-  margin-bottom: 1.66vw;
-  text-align: center;
-}
-
-.computer-mockup h2 {
-  font-size: 24px;
-  font-size: 1.66vw;
-  width: 894px;
-  width: 62.083vw;
-  line-height: 35px;
-  line-height: 2.43055vw;
-  color: #364347;
-  text-align: center;
-  margin-bottom: 40px;
-  margin-bottom: 2.77vw;
-}
-
-.computer-mockup img {
-  width: 100%;
-  margin-bottom: 80px;
-  margin-bottom: 5.55vw;
-}
-
 /* INCLUDED FEATURES SECTION STYLING */
 .feature-listing-container {
   display: flex;
@@ -409,7 +410,7 @@ nav span a:hover {
 }
 
 .included-features h1 {
-  font-size: 45px;
+  font-size: 3vw;
   font-weight: bold;
   color: #01435C;
   width: 560px;
@@ -497,6 +498,70 @@ nav span a:hover {
   background-image: linear-gradient(44deg, #fd5025, #FFB93C);
 }
 
+@media only screen and (max-width: 992px) {
+  .feature-listing-container {
+    width: 85%
+  }
+
+  .hero-image {
+    margin-bottom: 230px;
+  }
+
+  .included-features h1 {
+    font-size: 4vw;
+    font-weight: bold;
+    color: #01435C;
+    width: 560px;
+    width: 39.72vw;
+    margin-bottom: 40px;
+    margin-bottom: 2.77vw;
+    text-align: center;
+  }
+
+  .feature-listing img {
+    height: 3vw;
+    width: 3vw;
+  }
+
+  #phone-icon {
+    height: 3vw;
+    width: 2vw;
+  }
+
+  .feature-listing h3 {
+    font-size: 20px;
+    font-size: 1.9vw;
+    color: #364347;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px 0px 4px 0px;
+    padding-left: .55vw 0vw .55vw 0vw;
+  }
+
+  .feature-listing h4 {
+    font-size: 1.45vw;
+    line-height: 2vw;
+  }
+
+  .get-started-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    height: 4.6vw;
+    width: 22.7vw;
+    color: white;
+    font-size: 16px;
+    font-size: 1.7vw;
+    border-radius: .25rem;
+    border-radius: .277vw;
+    margin: 2vw 0 4vw 0;
+    font-weight: 600;
+    background-image: linear-gradient(44deg, #f04c23, #f2b031);
+    letter-spacing: .5px;
+  }
+}
+
 /* FOOTER */
 .footer-background {
   background-image: url(../../resources/assets/backgrounds/compressed-features-footer.png);
@@ -555,71 +620,17 @@ nav span a:hover {
   line-height: 2.4305vw;
 }
 
-/* ADDITIONAL FEATURES CARD STYLING */
-.additional-features-container {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  width: 1246px;
-  width: 86.527vw;
-  margin: 0 auto;
-}
+@media only screen and (max-width: 992px) {
+  .footer-rockets {
+    margin-top: -6.638vw;
+    width: 76.694vw;
+    margin-left: 12.2361vw;
+  }
 
-.additional-feature-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: white;
-  width: 394px;
-  width: 27.361vw;
-  height: 464px;
-  height: 32.22vw;
-  border-radius: 4px;
-  box-shadow: 0 16px 24px 0 rgba(48,49,51,0.1);
-}
-
-.additional-feature-card img {
-  width: 54px;
-  width: 3.75vw;
-  height: 55px;
-  height: 3.8194vw;
-  margin-top: 90px;
-  margin-top: 6.25vw;
-  margin-bottom: 32px;
-  margin-bottom: 2.22vw;
-}
-
-.additional-feature-card h1 {
-  font-size: 20px;
-  font-size: 1.38vw;
-  font-weight: bold;
-  color: #01435C;
-  text-align: center;
-  margin-bottom: 12px;
-  margin-bottom: .833vw;
-}
-
-.additional-feature-card h2 {
-  font-size: 16px;
-  font-size: 1.11vw;
-  width: 292px;
-  width: 20.277vw;
-  line-height: 24px;
-  line-height: 1.66vw;
-  color: #364347;
-  text-align: center;
-  margin: 0px;
-  font-weight: normal;
-  margin-bottom: 32px;
-  margin-bottom: 2.22vw;
-}
-
-.additional-feature-card h4 {
-  font-size: 45px;
-  font-size: 3.125vw;
-  color: #01435C;
-  font-weight: bold;
-  text-align: center;
+  .yellow-header {
+    width: 65%;
+    font-size: 4vw;
+  }
 }
 
 /* FOOTER CARD */
@@ -717,6 +728,144 @@ nav span a:hover {
 
 .card-button:active {
   background-image: linear-gradient(44deg, #D6441F, #D89D2C);
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-card {
+    width: 70%;
+  }
+
+  .footer-card h1 {
+    line-height: 4vw;
+    font-size: 4vw;
+    width: 80%;
+  }
+
+  .footer-card h2 {
+    width: 75%;
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+
+  .pricing-link {
+    font-size: 2vw;
+  }
+
+  .card-button {
+    color: white;
+    font-weight: 600;
+    padding: 1.5vw 2.5vw;
+    font-size: 2vw;
+    background-image: linear-gradient(44deg, #f04c23, #f2b031);
+    border-radius: 4px;
+    letter-spacing: .5px;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-image {
+    margin-bottom: 130px;
+    height: 54vw;
+  }
+
+  .hero-text {
+    width: 90%;
+  }
+
+  .hero-text h1 {
+    font-size: 6.5vw;
+  }
+
+  .hero-card h2 {
+    font-size: 5vw;
+  }
+
+  .hero-card h3 {
+    width: 85%;
+    font-size: 2.8vw;
+    line-height: 3.5vw;
+  }
+
+  .hero-card a {
+    height: 5.5vw;
+    width: 40%;
+    font-size: 2.2vw;
+  }
+
+  .included-features h1 {
+    font-size: 5.5vw;
+    width: 50%;
+  }
+
+  .feature-listing-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .feature-listing {
+    align-items: center;
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  .feature-listing img {
+    height: 5vw;
+    width: 5vw;
+  }
+
+  .feature-listing h3 {
+    font-size: 3vw;
+  }
+
+  .feature-listing h4 {
+    font-size: 2.5vw;
+    line-height: 3vw;
+    text-align: center;
+  }
+
+  #phone-icon {
+    height: 5vw;
+    width: 4vw;
+  }
+
+  .get-started-button {
+    height: 5.5vw;
+    width: 40%;
+    font-size: 2.2vw;
+  }
+
+  .footer-rockets {
+    visibility: hidden;
+    width: 55.694vw;
+  }
+
+  .yellow-header {
+    font-size: 5.5vw;
+    line-height: 5.8vw;
+    width: 90%;
+  }
+
+  .footer-card {
+    width: 90%;
+    height: 43vw;
+  }
+
+  .footer-card h1 {
+    line-height: 5.5vw;
+    font-size: 5.5vw;
+    width: 95%;
+  }
+
+  .footer-card h2 {
+    width: 90%;
+    font-size: 3vw;
+    line-height: 3.5vw;
+  }
+
+  .pricing-link {
+    font-size: 3vw;
+  }
 }
 
 /* FOOTER */
@@ -841,19 +990,6 @@ footer a {
   }
 }
 
-@media only screen and (max-width: 440px) {
-  footer {
-    margin: 5vw auto;
-  }
-
-  .footer-menu-column-bidrocket, .footer-menu-column-support, .footer-menu-column-company {
-    font-size: 3.667vw;
-  }
-
-  .footer-menu-header {
-    font-size: 3.667vw;
-  }
-
 @media only screen and (min-width: 1440px) {
 
   header {
@@ -870,5 +1006,129 @@ footer a {
 
   .log-in, .sign-up {
     padding: 11px 36px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .hero-image {
+    height: 66vw;
+    margin-bottom: 110px;
+  }
+
+  .hero-text {
+    width: 95%;
+  }
+
+  .hero-card {
+    width: 90%;
+  }
+
+  .hero-card h2 {
+    font-size: 6vw;
+  }
+
+  .hero-card h3 {
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+
+  .hero-card a {
+    height: 6.5vw;
+    width: 45%;
+    font-size: 2.7vw;
+  }
+
+  .included-features h1 {
+    font-size: 6vw;
+    width: 60%;
+    margin-bottom: 3.5vw;
+  }
+
+  .feature-listing-container {
+    width: 85%;
+  }
+
+  .feature-listing {
+    width: 45%;
+  }
+
+  .feature-listing img {
+    height: 6.5vw;
+    width: 6.5vw;
+  }
+
+  #phone-icon {
+    height: 6vw;
+    width: 4.5vw;
+  }
+
+  .feature-listing h3 {
+    font-size: 3.5vw;
+  }
+
+  .feature-listing h4 {
+    font-size: 3vw;
+    line-height: 3.5vw;
+    text-align: center;
+  }
+
+  .get-started-button {
+    height: 6.5vw;
+    width: 45%;
+    font-size: 2.7vw;
+  }
+
+  .footer-rockets {
+    width: 65vw;
+  }
+
+  .footer-background {
+    height: 79vw;
+  }
+
+  .yellow-header {
+    font-size: 6vw;
+    line-height: 6.3vw;
+  }
+
+  .footer-card h1 {
+    font-size: 6vw;
+    line-height: 6vw;
+  }
+
+  .footer-card h2 {
+    font-size: 3.5vw;
+    line-height: 4vw;
+    margin-bottom: 4.6vw;
+  }
+
+  .pricing-link {
+    font-size: 3.5vw;
+  }
+
+  .footer-card {
+    height: 53vw;
+  }
+
+  .card-button {
+    font-size: 2.7vw;
+    padding: 2.5vw 3vw;
+    border-radius: 2px;
+  }
+
+  footer {
+    margin: 26vw auto 3vw auto;
+  }
+
+  .footer-menu-column-bidrocket, .footer-menu-column-support, .footer-menu-column-company {
+    font-size: 3.667vw;
+  }
+
+  .footer-menu-header {
+    font-size: 3.667vw;
+  }
+
+  .footer-menu-item a {
+    font-size: 3.667vw;
   }
 }
