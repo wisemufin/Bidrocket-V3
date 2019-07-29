@@ -75,6 +75,21 @@ header nav #sign-up:hover {
   color: #FFFFFF;
 }
 
+#sidenav-signup {
+  width: 115px;
+  padding: 6px 36px;
+  font-size: 18px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  background-image: linear-gradient(44deg, #E54921, #f2b031);
+  border-radius: 4px;
+}
+
+#sidenav-signup:hover {
+  background-image: linear-gradient(44deg, #FF3D0D, #FFB119);
+}
+
 #hamburger {
   font-size: 32px;
 }
