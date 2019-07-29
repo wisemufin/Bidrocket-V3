@@ -380,7 +380,7 @@ nav span a:hover {
 
 /* EXTERNAL SUPPORT SECTION */
 .external-support-section {
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: center;
 }
@@ -487,6 +487,7 @@ nav span a:hover {
   width: 12.72vw;
   margin-left: 75px;
   margin-left: 5.2083vw;
+  visibility: hidden;
 }
 
 /* FOOTER CARD */
@@ -710,6 +711,7 @@ footer a {
   .footer-menu-header {
     font-size: 3.667vw;
   }
+}
 
 @media only screen and (min-width: 1440px) {
   header {
@@ -726,5 +728,337 @@ footer a {
 
   .log-in, .sign-up {
     padding: 11px 36px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    padding: 0px;
+  }
+
+  .body-container {
+    padding-top: 16vw;
+    margin-bottom: 9.22vw;
+  }
+
+  .form-container {
+    padding-left: 11vw;
+  }
+
+  .form-container h1 {
+    font-size: 4.5vw;
+    font-weight: 600;
+    width: 56.72vw;
+    line-height: 4.5vw;
+  }
+
+  .form-container h2 {
+    width: 47vw;
+    font-size: 2vw;
+    line-height: 2.8vw;
+  }
+
+  .form-container h2 a {
+    font-size: 2vw;
+  }
+
+  .form form .send-button {
+    width: 19vw;
+    height: 4.5vw;
+    font-size: 2vw;
+  }
+
+  .form form .input {
+    width: 46.72vw;
+    height: 4.5vw;
+    padding: .3vw 0 0 .6vw;
+    text-align: left;
+    font-size: 2vw;
+  }
+
+  textarea#message.input {
+    width: 46.72vw;
+    padding: .3vw 0 0 .6vw;
+    text-align: left;
+    font-size: 2vw;
+    height: 14vw;
+  }
+
+  textarea#message.input::placeholder {
+    font: 400 2vw proxima-nova;
+  }
+
+  input#name.input::placeholder {
+    font: 400 2vw proxima-nova;
+  }
+
+  input#email.input::placeholder {
+    font: 400 2vw proxima-nova;
+  }
+
+  .text-container {
+    padding-left: 6.722vw;
+  }
+
+  .text-container h3 {
+    font-size: 2vw;
+  }
+
+  .rocket {
+    display: none;
+  }
+
+  .footer-rockets {
+    visibility: hidden;
+  }
+
+  .external-support-section {
+    display: none;
+  }
+
+  .webp .footer-background {
+    margin-top: 12vw;
+  }
+
+  .no-webp .footer-background {
+    margin-top: 12vw;
+  }
+
+  /* FOOTER CHANGES */
+  .footer-card {
+    width: 70%;
+  }
+
+  .footer-card h1 {
+    line-height: 4vw;
+    font-size: 4vw;
+    width: 80%;
+  }
+
+  .footer-card h2 {
+    width: 75%;
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+
+  .pricing-link {
+    font-size: 2vw;
+  }
+
+  .card-button {
+    font-size: 2vw;
+    font-weight: 600;
+    padding: 1.5vw 2.5vw;
+    border-radius: 4px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    padding-top: 100px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 80%;
+  }
+
+  .form-container h1{
+    font-size: 6vw;
+    line-height: 6.5vw;
+    text-align: center;
+    width: 80%;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    font-size: 3vw;
+    line-height: 3.8vw;
+    width: 100%
+  }
+
+  .form-container h2 a {
+    font-size: 3vw;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  form#contactForm {
+    width: 100%;
+  }
+
+  .form form .input {
+    width: 100%;
+    height: 5.5vw;
+    padding: .3vw 0 0 .6vw;
+    text-align: left;
+    font-size: 2.5vw;
+  }
+
+  textarea#message.input {
+    width: 100%;
+    padding: .3vw 0 0 .6vw;
+    text-align: left;
+    font-size: 2.5vw;
+    height: 14vw;
+  }
+
+  textarea#message.input::placeholder {
+    font: 400 2.5vw proxima-nova;
+  }
+
+  input#name.input::placeholder {
+    font: 400 2.5vw proxima-nova;
+  }
+
+  input#email.input::placeholder {
+    font: 400 2.5vw proxima-nova;
+  }
+
+  .form form .send-button {
+    margin: 0 auto;
+    height: 6.5vw;
+    width: 100%;
+    font-size: 2.5vw;
+  }
+
+  .contact-information {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text-container {
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 4vw;
+  }
+
+  #email-header, #address-header {
+    font-weight: 600;
+    font-size: 3vw;
+  }
+
+  .text-container h3 {
+    font-size: 3vw;
+  }
+
+  #email-text, #email-header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .form-container {
+    width: 90%;
+  }
+
+  .form-container h1 {
+    width: 95%;
+    font-size: 7vw;
+  }
+
+  .form-container h2 {
+    font-size: 4vw;
+    line-height: 4.8vw;
+  }
+
+  .form-container h2 a {
+    font-size: 4vw;
+  }
+
+  .form form .input {
+    width: 100%;
+    height: 7.5vw;
+    padding: .6vw 0 0 .9vw;
+    text-align: left;
+    font-size: 3.5vw;
+  }
+
+  textarea#message.input {
+    width: 100%;
+    padding: .6vw 0 0 .9vw;
+    text-align: left;
+    font-size: 3.5vw;
+    height: 20vw;
+  }
+
+  textarea#message.input::placeholder {
+    font: 400 3.5vw proxima-nova;
+  }
+
+  input#name.input::placeholder {
+    font: 400 3.5vw proxima-nova;
+  }
+
+  input#email.input::placeholder {
+    font: 400 3.5vw proxima-nova;
+  }
+
+  .form form .send-button {
+    margin: 0 auto;
+    height: 7.5vw;
+    width: 100%;
+    font-size: 3.5vw;
+  }
+
+  .contact-information {
+    width: 60%;
+  }
+
+  #address-header, .text-container h3 {
+    font-size: 4vw;
+  }
+
+  .footer-card {
+    width: 90%;
+    height: 53vw;
+  }
+
+  .footer-card h1 {
+    font-size: 6vw;
+    line-height: 6vw;
+    width: 90%;
+  }
+
+  .footer-card h2 {
+    width: 90%;
+    font-size: 3.5vw;
+    line-height: 4vw;
+  }
+
+  .pricing-link {
+    font-size: 3.5vw;
+  }
+
+  .card-button {
+    font-size: 2.7vw;
+    font-weight: 600;
+    padding: 2.5vw 3vw;
+  }
+
+  footer {
+    margin-top: 26vw;
+  }
+
+  .footer-menu-item a {
+    font-size: 3.667vw;
+  }
+
+  .webp .footer-background, .no-webp .footer-background {
+    height: 53vw;
   }
 }
